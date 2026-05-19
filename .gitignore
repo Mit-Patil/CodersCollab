@@ -1,0 +1,51 @@
+# =====================================
+# FRONTEND (React)
+# =====================================
+
+frontend/coderscollab-frontend/node_modules/
+frontend/coderscollab-frontend/build/
+frontend/coderscollab-frontend/dist/
+
+frontend/coderscollab-frontend/.env
+frontend/coderscollab-frontend/.env.local
+
+# =====================================
+# BACKEND (Spring Boot)
+# =====================================
+
+backend/coderscollab-backend/target/
+backend/coderscollab-backend/build/
+
+# Ignore secrets
+backend/coderscollab-backend/src/main/resources/application.properties
+backend/coderscollab-backend/src/main/resources/application.yml
+
+# Logs
+*.log
+logs/
+
+# =====================================
+# IDE FILES
+# =====================================
+
+.idea/
+.vscode/
+*.iml
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+
+# NetBeans
+nbproject/private/
+
+# =====================================
+# OS FILES
+# =====================================
+
+.DS_Store
+Thumbs.db
+
+Documents/
+uploads/
